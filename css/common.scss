@@ -849,8 +849,9 @@ img {
 
           @include mobile {
             display: block;
-            font-size: 1.6em;
-            font-weight: 700;
+            font-family: "Outfit", sans-serif;
+            font-size: 1.8em;
+            font-weight: 400;
             text-align: center;
           }
         }
