@@ -483,8 +483,8 @@ img {
 
 .home-1 {
   height: calc(100vh - 80px);
-  min-height: 800px;
   background-color: $primary-peach;
+  padding: 50px 0;
   @include flex-center;
 
   @include desktop {
@@ -497,7 +497,7 @@ img {
 
   @include mobile {
     height: auto;
-    min-height: 580px;
+    padding: 100px 0;
     text-align: center;
   }
 

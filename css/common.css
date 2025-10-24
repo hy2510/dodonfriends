@@ -374,8 +374,8 @@ img {
 
 .home-1 {
   height: calc(100vh - 80px);
-  min-height: 800px;
   background-color: #ffcec0;
+  padding: 50px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -393,7 +393,7 @@ img {
 @media (max-width: 768px) {
   .home-1 {
     height: auto;
-    min-height: 580px;
+    padding: 100px 0;
     text-align: center;
   }
 }
